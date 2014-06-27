@@ -292,7 +292,6 @@
   <project path="frameworks/ex" name="CyanogenMod/android_frameworks_ex" remote="cm" revision="cm-11.0" />
   <project path="frameworks/mff" name="CyanogenMod/android_frameworks_mff" remote="cm" revision="cm-11.0" />
   <project path="frameworks/ml" name="CyanogenMod/android_frameworks_ml" remote="cm" revision="cm-11.0" />
-  <project path="frameworks/native" name="CyanogenMod/android_frameworks_native" groups="pdk" remote="cm" revision="cm-11.0" />
   <project path="frameworks/opt/calendar" name="CyanogenMod/android_frameworks_opt_calendar" remote="cm" revision="cm-11.0" />
   <project path="frameworks/opt/carddav" name="CyanogenMod/android_frameworks_opt_carddav" remote="cm" revision="cm-11.0" />
   <project path="frameworks/opt/colorpicker" name="CyanogenMod/android_frameworks_opt_colorpicker" remote="cm" revision="cm-11.0" />
@@ -320,7 +319,6 @@
   <project path="hardware/cm" name="CyanogenMod/android_hardware_cm" remote="cm" revision="cm-11.0" />
   <project path="hardware/invensense" name="CyanogenMod/android_hardware_invensense" groups="invensense" remote="cm" revision="cm-11.0" />
   <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" groups="pdk" remote="cm" revision="cm-11.0" />
-  <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" groups="pdk" remote="cm" revision="cm-11.0" />
   <project path="hardware/qcom/audio" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom" remote="cm" revision="cm-11.0" />
   <project path="hardware/qcom/audio-caf" name="CyanogenMod/android_hardware_qcom_audio-caf" groups="caf" remote="cm" revision="cm-11.0" />
   <project path="hardware/qcom/bt" name="CyanogenMod/android_hardware_qcom_bt" groups="qcom" remote="cm" revision="cm-11.0" />
@@ -479,6 +477,7 @@
 
   <!-- KylinMod External Start -->
   <project path="external/koush/Superuser" name="KylinMod/android_external_koush_Superuser" />
+  <project path="external/libphonenumber" name="KylinMod/android_external_libphonenumber" />
   <!-- KylinMod External End -->
 
   <!-- KylinMod Packages Apps Start -->
@@ -498,6 +497,7 @@
 
   <!-- KylinMod Frameworks Start -->
   <project path="frameworks/base" name="KylinMod/android_frameworks_base" />
+  <project path="frameworks/native" name="KylinMod/android_frameworks_native" groups="pdk" />
   <project path="frameworks/opt/telephony" name="KylinMod/android_frameworks_opt_telephony" />
   <!-- KylinMod Frameworks End -->
 
@@ -508,7 +508,7 @@
   <!-- Devices Paired Start -->
   <!-- Other -->
   <project path="art" name="KylinMod/android_art" />
-  <project path="external/libphonenumber" name="KylinMod/android_external_libphonenumber" />
+  <project path="hardware/libhardware_legacy" name="KylinMod/android_hardware_libhardware_legacy" groups="pdk" />
   <project path="vendor/kylin" name="KylinMod/android_vendor_kylin" />
   <project path="device/generic/goldfish" name="KylinMod/android_device_generic_goldfish" groups="pdk" />
   <!-- Devices Paired End -->
