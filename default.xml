@@ -57,6 +57,8 @@
   <project path="external/android-mock" name="CyanogenMod/android_external_android-mock" remote="cm" revision="cm-11.0" />
   <project path="external/android-visualizer" name="CyanogenMod/android_external_android-visualizer" remote="cm" revision="cm-11.0" />
   <project path="external/ant-glob" name="CyanogenMod/android_external_ant-glob" remote="cm" revision="cm-11.0" />
+  <project path="external/ant-wireless/ant_native" name="CyanogenMod/android_external_ant-wireless_ant_native" remote="cm" revision="cm-11.0" />
+  <project path="external/ant-wireless/ant_service" name="CyanogenMod/android_external_ant-wireless_ant_service" remote="cm" revision="cm-11.0" />
   <project path="external/antlr" name="CyanogenMod/android_external_antlr" remote="cm" revision="cm-11.0" />
   <project path="external/apache-harmony" name="CyanogenMod/android_external_apache-harmony" remote="cm" revision="cm-11.0" />
   <project path="external/apache-http" name="CyanogenMod/android_external_apache-http" remote="cm" revision="cm-11.0" />
@@ -273,7 +275,7 @@
   <project path="external/tcpdump" name="CyanogenMod/android_external_tcpdump" remote="cm" revision="cm-11.0" />
   <project path="external/timezonepicker-support" name="platform/external/timezonepicker-support" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="external/tinyalsa" name="CyanogenMod/android_external_tinyalsa" groups="pdk" remote="cm" revision="cm-11.0" />
-  <project path="external/tinycompress" name="platform/external/tinycompress" groups="pdk" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
+  <project path="external/tinycompress" name="CyanogenMod/android_external_tinycompress" groups="pdk" remote="cm" revision="cm-11.0" />
   <project path="external/tinyxml" name="CyanogenMod/android_external_tinyxml" groups="pdk" remote="cm" revision="cm-11.0" />
   <project path="external/tinyxml2" name="CyanogenMod/android_external_tinyxml2" groups="pdk" remote="cm" revision="cm-11.0" />
   <project path="external/tremolo" name="CyanogenMod/android_external_tremolo" groups="pdk" remote="cm" revision="cm-11.0" />
